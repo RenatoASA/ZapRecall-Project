@@ -74,7 +74,7 @@ export default function Question(props) {
 const StyleQuestion = styled.div`
       width: 290px;
       height: ${props => (props.$showAnswer ? 'auto' : '80px')};
-    background-color: yellow;
+    background-color: #ffffff;
     margin-bottom: 20px; 
     align-items: center;
     justify-content: space-between;

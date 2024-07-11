@@ -7,7 +7,7 @@ export default function Bottom({count, totalCount}) {
     
     return (
         <StyleBottom>
-            <span> {count} / {totalCount} Concluido</span>
+            <span>{count} / {totalCount} Concluido</span>
         </StyleBottom>
       
     )
@@ -16,7 +16,7 @@ export default function Bottom({count, totalCount}) {
 const StyleBottom = styled.div`
     width: 375px;
     height: 77px;
-    background-color: green;
+    background-color: #ffffff;
     position: fixed;
     bottom: 0px;
     align-items: center;

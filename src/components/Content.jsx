@@ -50,7 +50,7 @@ const StyleSeparateContent = styled.div`
 const StyleContent = styled.div`
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: #FB6B6B;
     margin-top: 200px;
     align-items: center;
     display: flex;
