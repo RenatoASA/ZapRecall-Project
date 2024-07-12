@@ -3,7 +3,6 @@ import virar from '../assets/seta_virar.png'
 import erro from '../assets/icone_erro.png'
 import certo from '../assets/icone_certo.png'
 import quase from '../assets/icone_quase.png'
-import Content from './Content'
 
 import styled from 'styled-components'
 import { useState } from "react";
@@ -39,7 +38,6 @@ export default function Question(props) {
         setIcon(seta);
         setDisabled(true);
         props.setCount(props.count+1);
-       console.log("prop.setCount" + props.count);
     }
     
     return (
@@ -79,8 +77,7 @@ const StyleQuestion = styled.div`
     align-items: center;
     justify-content: space-between;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px;
     border-radius: 5px;
     flex-direction: ${props => (props.$showAnswer ? 'column' : 'row')};
     box-sizing: border-box;

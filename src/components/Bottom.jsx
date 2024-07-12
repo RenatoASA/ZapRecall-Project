@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 
 export default function Bottom({count, totalCount}) {
-    console.log("Count:", count, "totalCount:", totalCount);
     
     return (
         <StyleBottom>

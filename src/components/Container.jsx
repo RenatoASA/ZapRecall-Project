@@ -1,3 +1,5 @@
+
+
 import styled from "styled-components"
 import Topo from './Topo'
 import Content from './Content.jsx'
@@ -8,7 +10,7 @@ export default function Container(){
     <StyleContainer>
         <Topo />
         <Content />
-        <Bottom />
+        {/* <Bottom /> */}
        
     </StyleContainer>
     )
